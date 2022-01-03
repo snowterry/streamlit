@@ -52,7 +52,7 @@ st.map(df3) #地図表示
 
 st.write('Display Imege')
 if st.checkbox('Show Image'):
-    img = Image.open('app\streamlit\image\sample.jpg') #streamアプリ公開時はソースがappフォルダに格納されている？
+    img = Image.open('https://github.com/snowterry/streamlit/blob/main/image/sample.jpg')
     st.image(img, caption='sample_test', use_column_width=True)
 
 option = st.selectbox(
