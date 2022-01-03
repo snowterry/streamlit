@@ -52,7 +52,7 @@ st.map(df3) #地図表示
 
 st.write('Display Imege')
 if st.checkbox('Show Image'):
-    img = Image.open('https://github.com/snowterry/streamlit/blob/main/image/sample.jpg')
+    img = Image.open('https://github.com/snowterry/streamlit/blob/main/image/sample.jpg?raw=true')
     st.image(img, caption='sample_test', use_column_width=True)
 
 option = st.selectbox(
